@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.title p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: hotpink;
+}
+
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: hotpink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: hotpink;
+}
+
+form a {
+    display: block;
+    margin-top: 20px;
+    color: hotpink;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+/* CSS for the Sign UP button */
+input[type="submit"][name="signUP_button"] {
+    background-color: pink; /* Pink background color */
+    border: none;          /* No border */
+    color: white;          /* White text color */
+    padding: 10px 20px;    /* Padding for the button */
+    text-align: center;    /* Centered text */
+    text-decoration: none; /* No underline for the text */
+    display: inline-block; /* Inline-block display */
+    font-size: 16px;       /* Font size */
+    margin: 4px 2px;       /* Margin around the button */
+    cursor: pointer;       /* Pointer cursor on hover */
+    border-radius: 8px;    /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background-color transition */
+}
+
+input[type="submit"][name="signUP_button"]:hover {
+    background-color: hotpink; /* Darker pink color on hover */
+}
